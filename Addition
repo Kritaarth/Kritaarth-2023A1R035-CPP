@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+class add{
+private:
+    int a,b;
+    public:
+    add(){
+        cin>>a;
+        cin>>b;
+        cout << a + b;
+    }
+};
+int main(){
+    add s;
+    return 0;
+}

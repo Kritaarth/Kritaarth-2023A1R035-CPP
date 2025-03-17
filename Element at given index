@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+class findas
+{
+private:
+    int a[100];
+    int n;
+    int s;
+
+public:
+    void array()
+    {
+        cout << "Enter the size of array : " << endl;
+        cin >> n;
+        cout << "Enter the array elements : " << endl;
+        int i;
+        for (i = 0; i < n; i++)
+        {
+            cin >> a[i];
+        }
+        cout << "Enter the index pos : " << endl;
+        cin >> s;
+        cout << "Elements at index pos " << s << " is " << a[s];
+    }
+};
+int main()
+{
+    findas ele;
+    ele.array();
+    return 0;
+}
