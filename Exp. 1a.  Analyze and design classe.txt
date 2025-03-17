@@ -1,0 +1,18 @@
+Exp. 1a.  Analyze and design classes for a student management system. 
+Classes for Student Management System:-
+1. Student
+To store and display Student Information
+2. Course class
+To store and display Course Details
+3. Admin Class
+To change / Add / Delete  / Update , information of Student or course
+4. Examination 
+To store and display information about the ongoing or upcomming exams.
+5. Result Class
+To store and display Result.
+6. Department Class
+To store and Display information of All Schools And Departments of College.
+7. Notification Class
+To Display all latest information and updates.
+
+
